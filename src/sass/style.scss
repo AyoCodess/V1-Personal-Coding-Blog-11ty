@@ -288,8 +288,13 @@ section,
     "image"
     "title"
     "meta"
+    "read"
     "body"
     "button";
+}
+
+.read {
+  grid-area: read;
 }
 
 .snippet__image {
@@ -334,11 +339,12 @@ section,
     grid-template-areas:
       "title image"
       "meta image"
+      "read image"
       "body image"
       "button image";
     grid-column-gap: 4em;
     grid-template-columns: 1fr 40%;
-    grid-template-rows: min-content min-content min-content 1fr;
+    grid-template-rows: min-content min-content min-content min-content 1fr;
   }
 }
 

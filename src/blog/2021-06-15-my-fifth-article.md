@@ -2,6 +2,7 @@
 title: My Fifth Article
 author: Kevin Powell
 date: 2021-06-15
+read: 2
 tags: post
 image: /assets/blog/article-5.jpg
 imageAlt: This is a test
