@@ -13,6 +13,12 @@ layout: "base.njk"
 
     {{ content | safe }}
 
-    <a href="/blog" class="btn btn--primary">Back to Recent Articles</a>
+    <h1 class="section-title">Recent Articles</h1>
+    <div class="recent-links">
+      {%- for post in collections.post.slice(0,5) | reverse -%} {% include
+      'recent-articles-links.njk'%} {%- endfor %}
+    </div>
+
+    {% include 'disqus.njk'%}
   </div>
 </article>

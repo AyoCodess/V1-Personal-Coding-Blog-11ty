@@ -19,7 +19,7 @@ collections:
       - {
           label: "How long does it take to read?",
           name: "read",
-          widget: "number",
+          widget: "string",
         }
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }

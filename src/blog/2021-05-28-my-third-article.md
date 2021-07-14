@@ -2,7 +2,7 @@
 title: My Third Article
 author: Kevin Powell
 date: 2021-05-28
-read: 2
+read: 3 min
 tags: ["post", "featured"]
 image: /assets/blog/article-3.jpg
 imageAlt: This is a test

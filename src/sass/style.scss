@@ -297,6 +297,12 @@ section,
   grid-area: read;
 }
 
+.recent-links {
+  padding: 0.5rem 0rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .snippet__image {
   grid-area: image;
   width: 100%;
