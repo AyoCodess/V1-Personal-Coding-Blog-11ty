@@ -1,12 +1,3 @@
-<a href="{{ defaultURL | url }}" class="white-text"
-  ><i class="fa fa-comments pr-1"></i>
-
-  {# little tricks to allow disqus count to work locally #}
-  <object>
-    <a
-      href="{{ site.rootUrl + defaultURL | url }}#disqus_thread"
-      class="white-text"
-      >0</a
-    >
-  </object>
-</a>
+<span>
+  <a href="{{ post.url }}#disqus_thread"><i class="fa fa-comments pr-1"></i></a>
+</span>

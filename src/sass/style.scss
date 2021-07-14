@@ -417,7 +417,7 @@ section,
 
 .snippet__title a:hover,
 .snippet__title a:focus {
-  color: var(--clr-primary-500);
+  color: var(--clr-purple);
 }
 
 .btn {
@@ -429,7 +429,6 @@ section,
   border-radius: 2em;
   align-self: start;
   justify-self: start;
-  transition: background-color 5s ease, background 1s ease;
 
   i {
     background-color: #302b63;
@@ -441,25 +440,22 @@ section,
 }
 
 .btn:focus {
-  outline: 0.125em solid var(--clr-primary-400);
+  outline: 0.125em solid var(--clr-purple);
   outline-offset: 0.25em;
 }
 
 .btn--primary {
-  // background: var(--clr-primary-400);
   background: var(--clr-neutral-100);
   color: var(--clr-black);
   font-weight: var(--fw-700);
-  // border: 2px solid var(--clr-primary-400);
   border: 2px solid;
-  border-color: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  border-color: var(--clr-purple);
 }
 
 .btn--primary:hover,
 .btn--primary:focus {
-  // background: var(--clr-primary-500);
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  border-color: var(--clr-primary-500);
+  border-color: var(--clr-purple);
   color: var(--clr-neutral-100);
 }
 
