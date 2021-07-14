@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/admin");
+  eleventyConfig.addPassthroughCopy("./src/_site.js");
   eleventyConfig.setBrowserSyncConfig({
     files: "./public/css/**/*.css",
   });
