@@ -386,6 +386,10 @@ section,
   grid-area: read;
 }
 
+.blog-title {
+  margin-bottom: 3rem;
+}
+
 .recent-links {
   display: grid;
   grid-template-columns: 1fr;
@@ -517,6 +521,10 @@ section,
     grid-column-gap: 4em;
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content min-content 1fr;
+
+    img {
+      margin-top: 3rem;
+    }
   }
 }
 
@@ -531,6 +539,8 @@ section,
     grid-column-gap: 4em;
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content min-content 1fr;
+
+    height: 25rem;
   }
 
   .hero > div {
