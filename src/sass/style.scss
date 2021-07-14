@@ -152,8 +152,19 @@ section,
 }
 
 .comments {
-  display: inline-block;
+  display: inline-block !important;
   color: var(--clr-purple);
+
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-900);
+  font-size: 1.5rem;
+  line-height: 1.1;
+
+  text-decoration: none !important;
+}
+
+.article-special-case {
+  display: inline-block !important;
 }
 
 /* //////////////////////
