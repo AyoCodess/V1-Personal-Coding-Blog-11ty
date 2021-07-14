@@ -1,6 +1,6 @@
 ---
 title: My Second Article
-author: Kevin Powell
+author: Ayo Adesanya
 date: 2021-05-15
 read: 1 min
 tags: ["post", "featured"]

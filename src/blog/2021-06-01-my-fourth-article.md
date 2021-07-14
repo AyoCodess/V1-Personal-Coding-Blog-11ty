@@ -1,6 +1,6 @@
 ---
 title: My Fourth Article
-author: Kevin Powell
+author: Ayo Adesanya
 date: 2021-06-01
 read: 5 min
 tags: post

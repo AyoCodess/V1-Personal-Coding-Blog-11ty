@@ -1,6 +1,6 @@
 ---
 title: My Fifth Article
-author: Kevin Powell
+author: Ayo Adesanya
 date: 2021-06-15
 read: 45 second
 tags: post

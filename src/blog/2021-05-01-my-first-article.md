@@ -1,6 +1,6 @@
 ---
 title: My First Article
-author: Kevin Powell
+author: Ayo Adesanya
 date: 2021-05-01
 read: 2 min
 tags: ["post", "featured"]

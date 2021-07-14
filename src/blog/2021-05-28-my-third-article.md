@@ -1,6 +1,6 @@
 ---
 title: My Third Article
-author: Kevin Powell
+author: Ayo Adesanya
 date: 2021-05-28
 read: 3 min
 tags: ["post", "featured"]
