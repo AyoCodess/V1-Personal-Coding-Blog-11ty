@@ -4,7 +4,7 @@ layout: "base.njk"
 
 <article class="main-article">
   <div class="container container--narrow flow">
-    <h1 class="article-title">{{ title }}</h1>
+    <h1 class="article-title text-gradient">{{ title }}</h1>
     <h2></h2>
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}" />
@@ -13,7 +13,7 @@ layout: "base.njk"
 
     {{ content | safe }}
 
-    <h1 class="section-title">Recent Articles</h1>
+    <h1 class="section-title text-gradient">Recent Articles</h1>
     <div class="recent-links">
       {%- for post in collections.post.slice(0,5) | reverse -%} {% include
       'recent-articles-links.njk'%} {%- endfor %}
