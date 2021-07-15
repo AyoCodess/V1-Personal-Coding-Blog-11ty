@@ -142,6 +142,13 @@ strong {
   font-weight: var(--fw-700);
 }
 
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .footer-container input {
   padding: 10px;
 }
@@ -161,7 +168,7 @@ section,
 
   font-family: var(--ff-heading);
   font-weight: var(--fw-900);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.1;
 
   text-decoration: none !important;
@@ -202,6 +209,7 @@ section,
 .flex-group {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: var(--gap, 1em);
 }
 
@@ -243,6 +251,11 @@ section,
 .nav-list {
   margin: 0;
   padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .nav-list a {
