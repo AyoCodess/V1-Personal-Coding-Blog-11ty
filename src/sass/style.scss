@@ -349,7 +349,7 @@ section,
   );
 
   P {
-    margin-top: 1rem;
+    // margin-top: 1rem;
     // margin-bottom: 5rem;
   }
 
@@ -399,7 +399,7 @@ section,
 
 .snippet {
   display: grid;
-  gap: 1rem;
+  gap: 0.25rem;
   grid-template-areas:
     "image"
     "title"
@@ -459,6 +459,10 @@ section,
 
 .snippet__meta span {
   color: var(--clr-neutral-900);
+}
+.snippet__body {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .snippet .btn {
