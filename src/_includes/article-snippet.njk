@@ -9,21 +9,24 @@
       <h3 class="snippet__title text-gradient article-special-case">
         <a href="{{ post.url }}">{{ post.data.title }} </a>
       </h3>
+
+      <p class="snippet__meta">
+        by <span>{{ post.data.author }} on&nbsp;</span>
+        <span>{{ post.data.date | postDate }}&nbsp;</span>
+      </p>
+
+      <div class="read">
+        <span
+          ><strong>{{ post.data.read }} read&nbsp;</strong></span
+        >
+        <i class="far fa-clock"></i>
+      </div>
+
       <div>
         <i class="fa fa-comments"></i>&nbsp; {% include 'comment-number.njk' %}
       </div>
     </div>
 
-    <p class="snippet__meta">
-      by <span>{{ post.data.author }} on&nbsp;</span>
-      <span>{{ post.data.date | postDate }}&nbsp;</span>
-    </p>
-    <div class="read">
-      <span
-        ><strong>{{ post.data.read }} read&nbsp;</strong></span
-      >
-      <i class="far fa-clock"></i>
-    </div>
     <p class="snippet__body">{{ post.data.description }}</p>
     <a href="{{ post.url }}" class="btn btn--primary"
       >Continue Reading <span><i class="fas fa-arrow-right"></i></span
