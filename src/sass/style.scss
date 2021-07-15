@@ -67,9 +67,14 @@ dd {
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul:where([role="list"]),
 ol:where([role="list"]) {
-  list-style: none;
+  list-style: none !important;
   margin: 0;
   padding: 0;
+}
+
+ul,
+ol {
+  list-style: none !important;
 }
 
 /* Set core root defaults */
