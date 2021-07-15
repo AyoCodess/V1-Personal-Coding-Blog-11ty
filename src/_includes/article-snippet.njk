@@ -10,10 +10,9 @@
         <a href="{{ post.url }}">{{ post.data.title }} </a>
         <span>&nbsp;|&nbsp;</span>
       </h3>
-      <span
-        ><i class="fa fa-comments"></i>&nbsp; {% include 'comment-number.njk'
-        %}</span
-      >
+      <div>
+        <i class="fa fa-comments"></i>&nbsp; {% include 'comment-number.njk' %}
+      </div>
     </div>
 
     <p class="snippet__meta">
