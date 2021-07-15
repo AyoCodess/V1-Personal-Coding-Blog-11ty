@@ -496,6 +496,23 @@ section,
   background: var(--clr-black);
 }
 
+@media (max-width: 460px) {
+  .page-header__content {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
 @media (min-width: 719px) {
   .snippet__image {
     grid-area: image;
