@@ -29,7 +29,7 @@
   --clr-purple: #302b63;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 35rem) {
   :root {
     --fs-300: 1rem;
     --fs-400: 1.125rem;
@@ -197,12 +197,12 @@ section,
 }
 
 .flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1.5em);
+  margin-top: var(--flow-spacer, 1.5rem);
 }
 
 .container {
   margin-inline: auto;
-  padding-inline: 1.5em;
+  padding-inline: 1.5rem;
   max-width: 72rem;
 }
 
@@ -214,7 +214,7 @@ section,
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: var(--gap, 1em);
+  gap: var(--gap, 1rem);
 }
 
 .text-center {
@@ -244,7 +244,7 @@ section,
   font-weight: bold;
 }
 .page-header {
-  padding: 2em 0;
+  padding: 2rem 0;
 }
 
 .page-header__content {
@@ -280,7 +280,7 @@ section,
 
 .site-footer {
   --logo-color: currentColor;
-  padding: 2em 0;
+  padding: 2rem 0;
   color: var(--clr-neutral-100);
   background-color: var(--clr-purple);
   text-align: center;
@@ -295,14 +295,14 @@ section,
   grid-auto-flow: row;
   grid-auto-columns: 1fr;
   align-items: center;
-  gap: 3em;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
 }
 
 .hero__image {
   width: 100%;
-  border-radius: 2em;
+  border-radius: 2rem;
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
   animation: bounce 3s infinite ease-in-out;
@@ -386,7 +386,7 @@ section,
 
 .snippet {
   display: grid;
-  gap: 1em;
+  gap: 1rem;
   grid-template-areas:
     "image"
     "title"
@@ -396,7 +396,7 @@ section,
     "button";
 
   img {
-    border-radius: 2em;
+    border-radius: 2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     animation: bounce 5s infinite ease-in-out;
@@ -466,23 +466,23 @@ section,
   text-decoration: none;
   display: inline-block;
   line-height: 1;
-  padding: 0.55em 1em;
-  border-radius: 2em;
+  padding: 0.55rem 1rem;
+  border-radius: 2rem;
   align-self: start;
   justify-self: start;
 
   i {
     background-color: #302b63;
-    font-size: 1em;
-    padding: 0.5em;
+    font-size: 1rem;
+    padding: 0.5rem;
     border-radius: 3em;
     color: var(--clr-neutral-100);
   }
 }
 
 .btn:focus {
-  outline: 0.125em solid var(--clr-purple);
-  outline-offset: 0.25em;
+  outline: 0.125rem solid var(--clr-purple);
+  outline-offset: 0.25rem;
 }
 
 .btn--primary {
@@ -556,7 +556,7 @@ section,
       "read image"
       "body image"
       "button .";
-    grid-column-gap: 4em;
+    grid-column-gap: 4rem;
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content min-content 1fr;
 
@@ -566,7 +566,7 @@ section,
   }
 }
 
-@media (min-width: 45em) {
+@media (min-width: 45rem) {
   .snippet {
     grid-template-areas:
       "title image"
@@ -574,7 +574,7 @@ section,
       "read image"
       "body image"
       "button image";
-    grid-column-gap: 4em;
+    grid-column-gap: 4rem;
     grid-template-columns: 1fr 40%;
     grid-template-rows: min-content min-content min-content min-content 1fr;
 
