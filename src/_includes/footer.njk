@@ -1,13 +1,22 @@
 <footer class="site-footer">
   <div class="footer-container">
     <p>© 2021 Ayo Adesanya. All rights reserved.</p>
-    <form action="https://www.isitagoodinvestment.com/" class="subscribe">
+    <form
+      action="https://www.isitagoodinvestment.com/"
+      class="subscribe"
+      data-netlify="true"
+      name="contact"
+      method="POST"
+    >
       <div class="form-group">
-        <input
-          type="email"
-          class="form-control"
-          placeholder=" Get notified of new blogs!"
-        />
+        <label for="Your email">
+          <input
+            type="email"
+            class="form-control"
+            placeholder=" Get notified of new blogs!"
+            name="email"
+          />
+        </label>
         <button class="btn btn--primary">Submit</button>
       </div>
     </form>
