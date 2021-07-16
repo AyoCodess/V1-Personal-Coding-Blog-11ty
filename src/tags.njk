@@ -1,35 +1,50 @@
 ---
 title: Tags
 layout: "base.njk"
+pagination:
+  data: collections.all
+  size: 1
+  alias: posts
+  reverse: true
 ---
 
 <div class="blog-container bg-gradient">
   <div class="section container">
     <h1 class="section-titl-all-posts text-gradient blog-title-all-posts">
-      All Tags 2
+      All Tags
     </h1>
 
     <div class="tag-buttons">
-      {% for tag in collections.tagsList %}
+      {% for tag in collections.tagsList %} {% if tag !== 'post' %}
 
-      <a class="btn btn--primary-2" href="/tags/{{ tag }}">{{ tag }}</a>
+      <div class="taglist-container">
+        <a class="btn btn--primary-2" href="/tags/{{ tag }}">{{ tag }}</a>
+        <ol class="tag-list">
+          {% endif %} {% set tagsList = collections[ tag ] %} {% for post in
+          tagsList | reverse %} {% if tag !== 'post' %}
+          <li>
+            <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+            <span>{{ post.data.date | postDate }}&nbsp; </span>
+          </li>
+          {% endif %} {% endfor %}
+        </ol>
+      </div>
 
       {% endfor %}
     </div>
 
     <div>
       <ol>
-        {% set taglist = collections[ tag ] %} {% for post in taglist | reverse
-        %}
+        {% set tagsList = collections[ tag ] %} {% for post in tagsList |
+        reverse %}
         <li>
           <a href="{{ post.url | url }}">{{ post.data.title }}</a>
         </li>
-
         {% endfor %}
       </ol>
     </div>
 
-    <div class="section container pagination-buttons">
+    <!-- <div class="section container pagination-buttons">
       {% if pagination.href.previous %}
       <a class="btn btn--primary-2" href="{{ pagination.href.previous }}"
         >Prev Page</a
@@ -39,6 +54,6 @@ layout: "base.njk"
         >Next Page</a
       >
       {% endif %}
-    </div>
+    </div> -->
   </div>
 </div>
