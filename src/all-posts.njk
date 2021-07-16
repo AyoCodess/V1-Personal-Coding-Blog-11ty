@@ -1,0 +1,33 @@
+---
+title: My Blogs
+layout: "base.njk"
+pagination:
+  data: collections.post
+  size: 50
+  alias: posts
+  reverse: true
+---
+
+<div class="blog-container bg-gradient">
+  <div class="section container">
+    <h1 class="section-titl-all-posts text-gradient blog-title-all-posts">
+      All Posts
+    </h1>
+
+    <ul role="list" class="articles__list flow">
+      {%- for post in posts %} {% include 'all-post-snippet.njk'%} {%- endfor %}
+    </ul>
+  </div>
+
+  <div class="section container pagination-buttons">
+    {% if pagination.href.previous %}
+    <a class="btn btn--primary-2" href="{{ pagination.href.previous }}"
+      >Prev Page</a
+    >
+    {% endif %} {% if pagination.href.next %}
+    <a class="btn btn--primary-2" href="{{ pagination.href.next }}"
+      >Next Page</a
+    >
+    {% endif %}
+  </div>
+</div>

@@ -291,6 +291,19 @@ section,
   border-bottom: 2px solid #302b63;
 }
 
+//? all post page
+
+.snippet-all-posts {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-bottom: 2px solid;
+  border-color: var(--clr-purple);
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 /* //////////////////////
   Footer
   /////////////////////// */

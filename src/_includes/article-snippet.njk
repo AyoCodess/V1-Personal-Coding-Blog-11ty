@@ -15,15 +15,16 @@
         <span>{{ post.data.date | postDate }}&nbsp;</span>
       </p>
 
-      <div class="read">
+      <div class="read inline-block">
         <span
           ><strong>{{ post.data.read }} read&nbsp;</strong></span
         >
         <i class="far fa-clock"></i>
       </div>
 
-      <div>
-        <i class="fa fa-comments"></i>&nbsp; {% include 'comment-number.njk' %}
+      <div class>
+        <i class="fa fa-comments inline-block"></i>&nbsp; {% include
+        'comment-number.njk' %}
       </div>
     </div>
 
