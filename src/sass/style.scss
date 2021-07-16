@@ -101,6 +101,11 @@ img,
 picture {
   max-width: 100%;
   display: block;
+
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  animation: bounce 5s infinite ease-in-out;
 }
 
 /* Inherit fonts for inputs and buttons */
