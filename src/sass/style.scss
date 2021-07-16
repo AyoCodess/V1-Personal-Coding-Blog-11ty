@@ -524,6 +524,21 @@ section,
   color: var(--clr-neutral-100);
 }
 
+.btn--primary-2 {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-700);
+  border: 2px solid;
+  border-color: var(--clr-purple);
+}
+
+.btn--primary-2:hover,
+.btn--primary-2:focus {
+  background: var(--clr-neutral-100);
+  border-color: var(--clr-purple);
+  color: var(--clr-black);
+}
+
 .btn--neutral {
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-900);
@@ -535,6 +550,10 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background: var(--clr-black);
+}
+
+.pagination-buttons {
+  margin-top: 2rem;
 }
 
 @media (min-width: 500px) {
