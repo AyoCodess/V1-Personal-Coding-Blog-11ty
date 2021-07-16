@@ -8,20 +8,24 @@ pagination:
   reverse: true
 ---
 
-<div class="section container bg-gradient">
-  <h1 class="section-title text-gradient blog-title">Most Recent Articles</h1>
+<div class="blog-container bg-gradient">
+  <div class="section container">
+    <h1 class="section-title text-gradient blog-title">Most Recent Articles</h1>
 
-  <ul role="list" class="articles__list flow">
-    {%- for post in posts %} {% include 'article-snippet.njk'%} {%- endfor %}
-  </ul>
-</div>
+    <ul role="list" class="articles__list flow">
+      {%- for post in posts %} {% include 'article-snippet.njk'%} {%- endfor %}
+    </ul>
+  </div>
 
-<div class="section container pagination-buttons">
-  {% if pagination.href.previous %}
-  <a class="btn btn--primary-2" href="{{ pagination.href.previous }}"
-    >Prev Page</a
-  >
-  {% endif %} {% if pagination.href.next %}
-  <a class="btn btn--primary-2" href="{{ pagination.href.next }}">Next Page</a>
-  {% endif %}
+  <div class="section container pagination-buttons">
+    {% if pagination.href.previous %}
+    <a class="btn btn--primary-2" href="{{ pagination.href.previous }}"
+      >Prev Page</a
+    >
+    {% endif %} {% if pagination.href.next %}
+    <a class="btn btn--primary-2" href="{{ pagination.href.next }}"
+      >Next Page</a
+    >
+    {% endif %}
+  </div>
 </div>
