@@ -2,12 +2,37 @@
   <div class="footer-container">
     <p>© 2021 Ayo Adesanya</p>
 
-    <form name="contact-blog" method="POST" data-netlify="true">
-      <label
-        ><input type="email" name="email" placeholder="Get Blog Notifications!"
-      /></label>
+    <ul role="list" class="nav-list-footer">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/blogs/">Recent</a>
+      </li>
+      <li>
+        <a href="/all-posts/">All Posts</a>
+      </li>
+      <li>
+        <a href="/tags/">Tags</a>
+      </li>
+      <li>
+        <a href="http://www.ayoadesanya.com" target="_blank">Portfolio</a>
+      </li>
+      <li>
+        <a href="mailto:ayo@ayoadesanya.com" target="_blank">Contact</a>
+      </li>
+    </ul>
 
-      <button class="btn btn--primary btn-footer" type="submit">Send</button>
+    <form name="contact-blog" method="POST" data-netlify="true">
+      <div class="form-con">
+        <label
+          ><input
+            type="email"
+            name="email"
+            placeholder="Get Blog Notifications!"
+        /></label>
+        <button class="btn btn--primary btn-footer" type="submit">Send</button>
+      </div>
     </form>
   </div>
 </footer>
