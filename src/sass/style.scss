@@ -113,7 +113,7 @@ input,
 button,
 textarea,
 select {
-  font: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -386,6 +386,7 @@ section,
     border-radius: 2rem;
     width: 60%;
     height: 2.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -681,7 +682,7 @@ section,
       border-radius: 2rem;
       width: 30%;
       height: 2.5rem;
-      font-size: 1rem;
+      font-size: 1.2rem !important;
     }
   }
 }
