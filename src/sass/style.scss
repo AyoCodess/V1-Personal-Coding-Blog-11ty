@@ -304,6 +304,18 @@ section,
   display: inline-block;
 }
 
+//? tags page
+
+.tag-buttons {
+  display: grid;
+  margin-top: 2rem;
+
+  grid-auto-flow: row;
+  a {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
 /* //////////////////////
   Footer
   /////////////////////// */

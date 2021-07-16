@@ -1,0 +1,44 @@
+---
+title: Tags
+layout: "base.njk"
+---
+
+<div class="blog-container bg-gradient">
+  <div class="section container">
+    <h1 class="section-titl-all-posts text-gradient blog-title-all-posts">
+      All Tags 2
+    </h1>
+
+    <div class="tag-buttons">
+      {% for tag in collections.tagsList %}
+
+      <a class="btn btn--primary-2" href="/tags/{{ tag }}">{{ tag }}</a>
+
+      {% endfor %}
+    </div>
+
+    <div>
+      <ol>
+        {% set taglist = collections[ tag ] %} {% for post in taglist | reverse
+        %}
+        <li>
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </li>
+
+        {% endfor %}
+      </ol>
+    </div>
+
+    <div class="section container pagination-buttons">
+      {% if pagination.href.previous %}
+      <a class="btn btn--primary-2" href="{{ pagination.href.previous }}"
+        >Prev Page</a
+      >
+      {% endif %} {% if pagination.href.next %}
+      <a class="btn btn--primary-2" href="{{ pagination.href.next }}"
+        >Next Page</a
+      >
+      {% endif %}
+    </div>
+  </div>
+</div>
