@@ -10,7 +10,9 @@
     <meta property="og:description" content="{{ post.data.description }}" />
     <meta property="og:url" content="{{ post.url }}" />
     <meta property="og:image" content="{{ post.data.image }}" />
-    <meta property="og:site_name" content="Ayo Codes - The Blog" />
+    <meta property="og:site_name" content="{{
+      post.data.title
+    }}"" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta name="twitter:image" content="{{ post.data.image }}" />
