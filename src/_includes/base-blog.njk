@@ -1,3 +1,19 @@
+---
+seo:
+  title: { { post.data.title } }
+  description: { { post.data.description } }
+  image: { { post.data.image } }
+images: # relative to /src/assets/images/
+  thumb: { { post.data.image } }
+tags:
+  - meta
+  - open-graph
+  - twitter
+  - structure
+  - customization
+  - frontmatter
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,12 +29,11 @@
     <meta property="og:site_name" content="{{ post.data.title }}" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta name="twitter:image" content="{{ post.image }}" />
+    <meta name="twitter:image" content="{{ post.data.image }}" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{{ post.title }}" />
-    <meta name="twitter:description" content="{{ post.description }}" />
+    <meta name="twitter:title" content="{{ post.data.title }}" />
+    <meta name="twitter:description" content="{{ post.data.description }}" />
     <meta name="twitter:site" content="@ayo__codes" />
-
     <meta name="twitter:creator" content="@ayo__codes" />
 
     <!-- * META TAGS FOR SOCIAL MEDIA ENDS * -->
