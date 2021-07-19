@@ -45,6 +45,16 @@
   RESET - source: https://piccalil.li/blog/a-modern-css-reset
   /////////////////////// */
 
+//? responsive font-size
+
+html {
+  font-size: calc(0.625vmin + 0.875rem);
+}
+
+body {
+  font-size: 1rem;
+}
+
 /* Box sizing rules */
 *,
 *::before,
