@@ -298,6 +298,10 @@ nav {
   a:last-child {
     margin-right: 1rem;
   }
+
+  li {
+    padding: 0.3rem 0rem;
+  }
 }
 
 .nav-list a {
@@ -371,6 +375,7 @@ nav {
 
   li {
     margin-left: 1rem;
+    padding-top: 1rem;
   }
   a {
     color: white;
@@ -684,6 +689,18 @@ footer {
 @media (min-width: 500px) {
   .hero {
     padding: 2rem 1rem;
+  }
+
+  .footer-container form .form-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    width: 25rem;
+
+    input {
+      width: 20rem;
+    }
   }
 }
 
