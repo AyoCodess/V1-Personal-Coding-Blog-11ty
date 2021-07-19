@@ -535,6 +535,18 @@ footer {
   margin: 1rem 0;
   font-size: var(--fs-300);
   opacity: 0.9;
+  visibility: hidden;
+}
+
+.main-article__figure {
+  margin: 1rem 0;
+  font-size: var(--fs-300);
+  opacity: 0.9;
+  margin-bottom: 2rem;
+
+  .article-img {
+    width: 50rem;
+  }
 }
 
 /* //////////////////////
