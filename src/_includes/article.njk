@@ -15,7 +15,7 @@ layout: "base-blog.njk"
 
     <h1 class="section-title text-gradient">Recent Articles</h1>
     <div class="recent-links">
-      {%- for post in collections.post.slice(0,5) | reverse -%} {% include
+      {%- for post in collections.post.slice(1) | reverse -%} {% include
       'recent-articles-links.njk'%} {%- endfor %}
     </div>
 
