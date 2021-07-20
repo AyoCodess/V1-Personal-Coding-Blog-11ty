@@ -37,8 +37,11 @@ imageAlt: Set up Disqus with Eleventy (11ty) tutorial
   module.exports = {
   
   title: "name of your website",
+  <br>
   description: "description of your website",
+  <br>
   rootUrl: "https://link to your website",
+  <br>
   disqusShortname: "your Disqus shortname",
   
   };
