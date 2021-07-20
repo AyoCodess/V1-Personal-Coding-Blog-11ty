@@ -29,7 +29,7 @@ imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 
 <p class="blog-p"><strong>3.</strong> If you didn't, don't worry. You're not stupid.</p>
 
-<p class="blog-p"><strong>4.</strong> Put this script in the "\_data" folder; name the script whatever you like. I named mine "site.js"</p>
+<p class="blog-p"><strong>4.</strong> Put this script in the "_data" folder; name the script whatever you like. I named mine "site.js"</p>
 
 <h3 class="snippet__title text-gradient article-special-case"> Copy the code</h3>
 
