@@ -23,17 +23,14 @@ imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 
 <a href="https://blog.jodionne.com/how-to-use-disqus-with-eleventy-9081d9a246d8" class="btn btn--primary">Full Tutorial <span><i class="fas fa-arrow-right"></i></span></a>
 
-<ol class="blog-p">
-  <li><b>1.</b> Click the link above and follow the instructions.</li>
+  <p><b>1.</b> Click the link above and follow the instructions.</p>
   
-  <li><b>2.</b> if you got your Disqus lightbox to work. Well done!</li>
+  <p><b>2.</b> if you got your Disqus lightbox to work. Well done!</p>
   
-  <li><b>3.</b> If you didn't, don't worry. You're not stupid.</li>
+  <p><b>3.</b> If you didn't, don't worry. You're not stupid.</p>
   
-  <li><b>4.</b> Put this script in the "\_data" folder; name the script whatever you like. I named mine "site.js"</li>
+  <p><b>4.</b> Put this script in the "\_data" folder; name the script whatever you like. I named mine "site.js"</p>
 
-  </ol>
-  
   <div class="snippet__title text-gradient article-special-case bold"> Copy the code</div><br>
   
   <div class="code-block">
