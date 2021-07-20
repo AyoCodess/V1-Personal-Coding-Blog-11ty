@@ -1,5 +1,5 @@
 ---
-title: My Blogs
+title: Most Recent Posts
 layout: "base.njk"
 pagination:
   data: collections.post
@@ -10,7 +10,7 @@ pagination:
 
 <div class="blog-container bg-gradient">
   <div class="section container">
-    <h1 class="section-title text-gradient blog-title">Most Recent Articles</h1>
+    <h1 class="section-title text-gradient blog-title">Most Recent Posts</h1>
 
     <ul role="list" class="articles__list flow">
       {%- for post in posts %} {% include 'article-snippet.njk'%} {%- endfor %}
