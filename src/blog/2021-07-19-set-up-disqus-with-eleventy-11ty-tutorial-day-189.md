@@ -12,7 +12,9 @@ image: https://i.imgur.com/0BnDMPD.jpg
 imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 ---
 
-<h1>The Problem</h1>
+(setq markdown-css-paths '("./src.styles.scss"))
+
+<h1 class="article-title">The Problem</h1>
 
 I had one major issue getting the Disqus comment lightbox to work on my 11ty static generated blog website. So if you're using 11ty and you find yourself stuck, hopefully, you ran into the same issue, and this short blog helps.
 
