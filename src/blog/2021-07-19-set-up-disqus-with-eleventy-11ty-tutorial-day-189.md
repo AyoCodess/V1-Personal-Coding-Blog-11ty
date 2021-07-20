@@ -8,6 +8,7 @@ tags:
   - post
   - disqus
   - static-site-generator
+  - featured
 image: https://i.imgur.com/8zB56E4.jpg
 imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 ---
