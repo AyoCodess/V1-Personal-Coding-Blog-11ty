@@ -921,3 +921,12 @@ footer {
   //   }
   // }
 }
+
+//? blog articles pages
+
+.code-block {
+  padding: 1rem;
+  border-left: 5px solid;
+  border-color: var(--clr-purple);
+  background: lighten(lightgray, 13%);
+}
