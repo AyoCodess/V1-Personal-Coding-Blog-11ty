@@ -1,17 +1,42 @@
 ---
-title: Set up Disqus with Eleventy (11ty) Tutorial - Day 189
-description: Set up Diqus comment box (Lightbox) with eleventy (11ty) static sight generator
-read: 1 Min
+title: CCS Padding-inline and Flexbox Gap Problem - Day 190
+description: Padding-inline and Flexbox gap not working as expected.
+read: 2 Min
 author: Ayo Adesanya
-date: 2021-07-19T15:53:02.124Z
+date: 2021-07-19
 tags:
   - post
-  - disqus
-  - static-site-generator
+  - css/sass
   - featured
-image: https://i.imgur.com/8zB56E4.jpg
-imageAlt: Set up Disqus with Eleventy (11ty) tutorial
+image: https://i.imgur.com/FTwROJa.jpg
+imageAlt: CSS Padding
 ---
+
+The problem:
+
+Today I was having issues with the padding-inline and the gap property for flexbox… both properties were hitting and missing on different devices. I would say I spent 2 hours trying to debug this querk messing around with SASS. Unfortunately for me, I couldn't find a way to make these properties work across all browsers and devices, even though ' can I use.com' clearly stated both properties had been implemented into the browsers I care about for some time. Strange.
+
+What absolutely didn't make sense to me was on my iPhone 12, the site was rendering just fine, but on my friends iPhone 11 padding-inline, and the flex gap property was not taking effect; the site just looked a mess. The images below will show you what I'm talking about
+
+(images)
+
+To make things worse, I had run out of minutes on 'BrowserStack.com' (virtual mobile testing), which allowed me to debug the devices my site was not rendering on as expected, e.g. an iPhone 11. Also, chrome, Firefox and Safari dev tools on my own machine, a Macbook Pro, wasn't helpful as it rendered my site as expected across various screen sizes.
+
+So I was kinda stuck; I couldn't debug the issue anymore, which resulted in me asking all my web dev friends what my website looked like on their mobile devices. Which didn't help.
+
+The solution:
+
+I got rid of both properties.
+
+I'm sure there is just a gap in my knowledge, and more debugging could have solved why those properties were not working as expected. So, in the end, I turned my navigation into a grid and used a column gap. And for the container for the individual articles page (I haven't got a before image to show you how bad it looked), I just used regular padding.
+
+I placed individual padding properties on the elements that needed it to get the same effect as padding-inline, which put padding on several elements within the container simultaneously, depending on how the code is written.
+
+And that was it. Job done.
+
+I plan to go back to this bug and find a real solution to why these properties we're not working on my site as expected.
+
+If you have any feedback or suggestions, please comment below. untill next time...stay enthusiastic about coding!
 
 <div class="snippet__title text-gradient article-special-case bold">The Problem</div>
 
