@@ -215,6 +215,38 @@ section,
   }
 }
 
+//? blog articles pages
+
+.blog-p {
+  list-style-type: decimal;
+}
+
+.code-block {
+  word-wrap: break-word;
+  padding: 1rem;
+  border-left: 5px solid;
+  border-color: var(--clr-purple);
+  background: lighten(lightgray, 13%);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.image-block {
+  display: flex;
+
+  gap: 1rem;
+
+  .blog-img--2 {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+
+    margin-bottom: 3rem;
+  }
+}
+
 /* //////////////////////
   Utility Classes
   /////////////////////// */
@@ -858,6 +890,12 @@ footer {
     padding: 1rem 0rem;
     margin: 2rem 10% 0rem 10%;
   }
+
+  .image-block .blog-img--2 {
+    width: 100%;
+    height: 100%;
+    object-fit: unset;
+  }
 }
 
 @media (min-width: 897px) {
@@ -938,22 +976,4 @@ footer {
   //     }
   //   }
   // }
-}
-
-//? blog articles pages
-
-.blog-p {
-  list-style-type: decimal;
-}
-
-.code-block {
-  word-wrap: break-word;
-  padding: 1rem;
-  border-left: 5px solid;
-  border-color: var(--clr-purple);
-  background: lighten(lightgray, 13%);
-}
-
-.bold {
-  font-weight: 700;
 }
