@@ -42,7 +42,7 @@ imageAlt: CSS Padding
 
 <p>I placed individual padding properties on the elements that needed it to get the same effect as padding-inline. Which puts padding on several elements within the container simultaneously, depending on how the code is written.</p>
 
-<p>I plan to go back to this bug and find a real solution to why these properties we're not working on my site as expected.</p>
+<p>I plan to go back to this bug and find a real solution to why these properties were not working on my site as expected.</p>
 
 <p>And that was it. Job done.</p>
 
