@@ -624,17 +624,13 @@ footer {
   .snippet__title {
     margin-top: 0.5rem;
   }
-
-  .recent-links-container {
-    padding: 0rem;
-  }
+}
+.recent-links-container {
+  padding: 0rem;
 }
 
 .snippet__image {
   grid-area: image;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
 }
 .snippet__title {
   grid-area: title;
@@ -812,11 +808,14 @@ footer {
   }
   .snippet__image {
     grid-area: image;
-    width: 100%;
-    height: 70%;
-    aspect-ratio: 3/4;
-    object-fit: cover;
-    margin-top: 4rem;
+
+    img {
+      width: 100%;
+      height: 70%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      margin-top: 4rem;
+    }
   }
 
   .footer-container {
@@ -901,10 +900,13 @@ footer {
 @media (min-width: 897px) {
   .snippet__image {
     grid-area: image;
-    width: 100%;
 
-    aspect-ratio: 3/4;
-    object-fit: cover;
+    img {
+      width: 100%;
+
+      aspect-ratio: 3/4;
+      object-fit: cover;
+    }
   }
 
   .snippet {
