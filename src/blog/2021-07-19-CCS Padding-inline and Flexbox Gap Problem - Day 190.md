@@ -22,7 +22,7 @@ imageAlt: CSS Padding
 
 <div class="image-block">
 
-<img class="blog-img--2" style="" src="https://i.imgur.com/jhIEs4p.jpg" alt="blog main image good vs bad padding" title="blog main image good vs bad padding" />
+<img class="blog-img--2 picture" style="" src="https://i.imgur.com/jhIEs4p.jpg" alt="blog main image good vs bad padding" title="blog main image good vs bad padding" />
 
 </div>
 
