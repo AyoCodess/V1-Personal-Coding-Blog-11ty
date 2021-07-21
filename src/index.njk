@@ -38,7 +38,7 @@ layout: "base.njk"
       is all about.
     </p>
     <ul role="list" class="articles__list flow">
-      {%- for post in collections.featured.slice(1).slice(-5) | reverse -%} {%
+      {%- for post in collections.featured.slice(1).slice(-3) | reverse -%} {%
       include 'article-snippet.njk'%} {%- endfor %}
     </ul>
   </div>
