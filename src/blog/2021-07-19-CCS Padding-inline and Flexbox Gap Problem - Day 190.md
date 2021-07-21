@@ -40,4 +40,4 @@ imageAlt: CSS Padding
 
 <p>I plan to go back to this bug and find a real solution to why these properties we're not working on my site as expected.</p>
 
-<p><b>If you have any feedback or suggestions, please comment below. untill next time...stay enthusiastic about coding!</b></p>
+<p><b>If you have any feedback or suggestions, please comment below. Untill next time...stay enthusiastic about coding!</b></p>
