@@ -370,8 +370,9 @@ nav {
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-neutral-100);
-  text-decoration: underline;
-  border-bottom: 2px solid #302b63;
+  padding-bottom: 0.2rem;
+
+  border-bottom: 2px solid white;
 }
 
 //? stats container
@@ -487,8 +488,8 @@ nav {
 
   a:hover,
   a:focus {
-    color: black;
-    border-bottom: none;
+    border-bottom: 2px solid;
+    padding-bottom: 0.2rem;
   }
 }
 
