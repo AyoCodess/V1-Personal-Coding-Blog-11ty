@@ -322,6 +322,7 @@ section,
 
 .logo {
   font-weight: bold;
+  text-transform: uppercase;
 }
 .page-header {
   padding: 2rem 0rem 0rem 0rem;
@@ -391,6 +392,11 @@ nav {
     background-color: #302b63;
     color: #ffffff;
     border-radius: 2rem;
+  }
+
+  .sc-main {
+    font-weight: bold;
+    font-size: 0.8rem;
   }
 
   .sc-num {
@@ -826,6 +832,11 @@ footer {
 
   .stats-container {
     margin: 2rem 1rem 0rem 1.5rem;
+
+    .sc-main {
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
   }
 
   .section-title {
@@ -858,6 +869,11 @@ footer {
     padding: 1rem;
     border-radius: 2rem;
     width: 15rem;
+
+    .sc-main {
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
   }
 }
 
