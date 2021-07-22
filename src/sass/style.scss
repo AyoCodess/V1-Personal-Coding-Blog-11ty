@@ -339,6 +339,7 @@ nav {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 2rem;
   padding: 1rem;
+  background: #302b63;
 }
 .nav-list {
   display: flex;
@@ -362,13 +363,13 @@ nav {
 }
 
 .nav-list a {
-  color: var(--clr-neutral-900);
+  color: white;
   text-decoration: none;
 }
 
 .nav-list a:focus,
 .nav-list a:hover {
-  color: var(--clr-purple);
+  color: var(--clr-neutral-100);
   text-decoration: underline;
   border-bottom: 2px solid #302b63;
 }
@@ -380,9 +381,14 @@ nav {
   display: grid;
   row-gap: 0.5rem;
   font-size: 0.7rem;
-  border: 2px solid #302b63;
+  // border: 2px solid #302b63;
   padding: 1rem;
   border-radius: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 2rem;
+  padding: 1rem;
 
   .sc-title {
     display: inline-block;
@@ -865,7 +871,7 @@ footer {
     display: grid;
     row-gap: 0.5rem;
     font-size: 0.7rem;
-    border: 2px solid #302b63;
+    // border: 2px solid #302b63;
     padding: 1rem;
     border-radius: 2rem;
     width: 15rem;
