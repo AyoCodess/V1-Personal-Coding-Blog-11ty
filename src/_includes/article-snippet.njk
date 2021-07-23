@@ -25,8 +25,12 @@
       </div>
 
       <div class>
-        <i class="fa fa-comments inline-block"></i>&nbsp; {% include
-        'comment-number.njk' %}
+        <i class="fa fa-comments inline-block"></i>&nbsp;
+        <div class="comments">
+          <span>
+            <a href="{{ post.url }}#disqus_thread"></a>
+          </span>
+        </div>
       </div>
     </div>
 
