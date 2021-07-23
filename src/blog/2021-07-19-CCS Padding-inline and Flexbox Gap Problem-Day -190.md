@@ -28,7 +28,7 @@ imageAlt: CSS Padding
 
 <p>To make things worse, I had run out of minutes on 'BrowserStack.com' (virtual mobile testing), which allowed me to debug the devices my site was not rendering on as expected, such as an iPhone 11. </p>
 
-<p>Also, Chrome, Firefox and Safari dev tools on my own machine, a Macbook Pro, weren't helpful as it rendered my site as expected across various screen sizes..</p>
+<p>Also, Chrome, Firefox and Safari dev tools on my own machine, a Macbook Pro, weren't helpful as it rendered my site as expected across various screen sizes.</p>
 
 <p>So there I was. Completely stuck. Since I couldn't debug the issue, I asked all my web dev friends what my website looked like on their mobile devices. Which didn't help.</p>
 
