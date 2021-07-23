@@ -18,15 +18,15 @@ imageAlt: ayo adesanya blog website
 
 <p>First things first, I really need to thank the 11ty discord for all the help those great devs provided me with; when I got stuck figuring out how static generators work and what 'templating' using nunjucks was all about. </p>
 
-<p>unjucks is a templating language that helps create HTML static pages, so you don't have to repeat code you've already written.</p>
+<p>Nunjucks is a templating language that helps create HTML static pages, so you don't have to repeat code you've already written.</p>
 
 <div class="image-block">
 
-<img class="blog-img--2 picture" style="" src="https://i.imgur.com/7zTThYf.jpg" alt="ayo adesanya nunjunks" title="ayo adesanya nunjunks" />
+<img class="blog-img--2 picture" style="" src="https://i.imgur.com/7zTThYf.jpg" alt="ayo adesanya nunjucks" title="ayo adesanya nunjucks" />
 
 </div>
 
-<p>If you have a 10-page website, you don't want to rewrite the same navbar code on every single page, do you? That's where templating comes in handy! With nunjucks or any other templating language, you only have to write the code once, and it will generate the code for all the other 9 pages automatically.) And thank you to Kevin Powell, 'CSS Grand Wizard` for his tutorial and other videos on his youtube channel that helped me get this project going!  </p>
+<p>If you have a 10-page website, you don't want to rewrite the same navbar code on every single page, do you? That's where templating comes in handy! With nunjucks or any other templating language, you only have to write the code once, and it will generate the code for all the other 9 pages automatically.) And thank you to Kevin Powell, 'CSS Grand Wizard` for his tutorial and other videos on his Youtube channel that helped me get this project going!  </p>
 
 <p>Sure, there are ways this site could be improved, and if you dive into the code, it could probably be done more efficiently too. But for a first attempt at making a blog website with a static site generator (11ty),  a technology I had no prior experience with, I'm really thrilled with the result.  </p>
 
