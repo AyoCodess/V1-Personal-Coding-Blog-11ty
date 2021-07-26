@@ -12,7 +12,7 @@ image: https://i.imgur.com/ERyDnhy.jpg
 imageAlt: CSS Padding
 ---
 
-<div class="snippet__title text-gradient article-special-case bold">The Problem</div>
+<h2 class="snippet__title text-gradient article-special-case bold">The Problem</h2>
 
 <p>Today I was having issues with the padding-inline and the gap property for flexbox… both properties were hitting and missing on different devices. </p>
 
@@ -32,7 +32,7 @@ imageAlt: CSS Padding
 
 <p>So there I was. Completely stuck. Since I couldn't debug the issue, I asked all my web dev friends what my website looked like on their mobile devices. Which didn't help.</p>
 
-<div class="snippet__title text-gradient article-special-case bold">The Solution</div>
+<h2 class="snippet__title text-gradient article-special-case bold">The Solution</h2>
 
 <p>I got rid of both properties.</p>
 
