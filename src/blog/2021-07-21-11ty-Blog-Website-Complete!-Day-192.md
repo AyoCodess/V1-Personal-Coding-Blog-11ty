@@ -12,7 +12,7 @@ image: https://i.imgur.com/fKt5tuD.jpg
 imageAlt: ayo adesanya blog website
 ---
 
-<h1 class="snippet__title text-gradient article-special-case bold">11ty Blog Website Complete!</h1>
+<h2 class="snippet__title text-gradient article-special-case bold">11ty Blog Website Complete!</h2>
 
 <p>I did it! I finally got my blog to a standard I'm happy to show off to the world. This 4-day journey had a few twists and turns that had me sweating, but it was well worth it.  </p>
 
