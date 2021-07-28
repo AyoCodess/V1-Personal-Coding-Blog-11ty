@@ -1,5 +1,5 @@
 ---
-title: How to optimize your website with Google Lighthouse - My experience - Day 193
+title: How to optimize your website with Google Lighthouse - My Experience - Day 193
 description: How to optimize your website with Google's Lighthouse tool.
 read: 3 min
 author: Ayo Adesanya
