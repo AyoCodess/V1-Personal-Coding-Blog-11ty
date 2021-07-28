@@ -14,7 +14,7 @@ imageAlt: google lighthouse
 
 <h2 class="snippet__title text-gradient article-special-case bold">The Problems </h2>
 
-<p>Thanks to <a class="blog-link" href="https://www.linkedin.com/in/famerazak/" target="_blank" rel="noopener">Fame, a senior web developer</a> from <a class="blog-link" href="https://www.ayoadesanya.com/#join-us" target="_blank" rel="noopener">the web dev telegram group </a>, I was reminded of how helpful Google's lighthouse tool is and why I should be running reports on every website I produce.  </p>
+<p>Thanks to <a class="blog-link" href="https://www.linkedin.com/in/famerazak/" target="_blank" rel="noopener">Fame, a senior web developer</a> from <a class="blog-link" href="https://www.ayoadesanya.com/#join-us" target="_blank" rel="noopener">the web dev telegram group (click to join) </a>, I was reminded of how helpful Google's lighthouse tool is and why I should be running reports on every website I produce.  </p>
 
 <p>Lighthouse is a tool in your chrome dev tools that will generate a report on your website, based on how it measures up against current web standards.  </p>
 
