@@ -6,7 +6,7 @@ author: Ayo Adesanya
 date: 2021-07-19
 tags:
   - post
-  - css/sass
+  - css sass
   - featured
 image: https://i.imgur.com/ERyDnhy.jpg
 imageAlt: CSS Padding

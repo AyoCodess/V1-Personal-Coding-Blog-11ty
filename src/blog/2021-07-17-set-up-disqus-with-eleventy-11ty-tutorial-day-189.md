@@ -7,8 +7,7 @@ date: 2021-07-17T15:53:02.124Z
 tags:
   - post
   - disqus
-  - static-site-generator
-  - featured
+  - static site generator
 image: https://i.imgur.com/8zB56E4.jpg
 imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 ---

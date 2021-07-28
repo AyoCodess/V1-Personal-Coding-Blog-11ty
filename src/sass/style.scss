@@ -230,6 +230,16 @@ section,
 
 //? blog articles pages
 
+.blog-link {
+  text-decoration: none;
+  color: #302b63;
+  font-size: inherit;
+
+  &:hover {
+    color: black;
+  }
+}
+
 .blog-p {
   list-style-type: decimal;
 }
@@ -259,6 +269,10 @@ section,
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
+}
+
+.image-block-2 {
+  margin-bottom: 3rem;
 }
 
 /* //////////////////////

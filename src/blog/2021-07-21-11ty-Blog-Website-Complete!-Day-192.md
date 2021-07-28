@@ -6,7 +6,7 @@ author: Ayo Adesanya
 date: 2021-07-21
 tags:
   - post
-  - static-site-generator
+  - static site generator
   - featured
 image: https://i.imgur.com/fKt5tuD.jpg
 imageAlt: ayo adesanya blog website
