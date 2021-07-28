@@ -113,7 +113,7 @@ You know when you have a link that opens a new tab? If you use only target"_blan
 
 </div>
 
-<p style="margin-top: 5rem;">Accessibility is essential. Being a person who stutters sometimes, I understand how important it is to give people with disabilities access to things more able people take for granted and don't really think about.</p>
+<p>Accessibility is essential. Being a person who stutters sometimes, I understand how important it is to give people with disabilities access to things more able people take for granted and don't really think about.</p>
 
 <h3> SEO</h3>
 
