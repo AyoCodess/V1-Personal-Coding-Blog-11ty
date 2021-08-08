@@ -1,6 +1,6 @@
 ---
 title: Set up Disqus with Eleventy (11ty) Tutorial
-description: Set up Diqus comment box (Lightbox) with eleventy (11ty) static sight generator
+description: Set up Disqus comment box (Lightbox) with eleventy (11ty) static sight generator
 read: 1 min
 author: Ayo Adesanya
 date: 2021-07-17T15:53:02.124Z
