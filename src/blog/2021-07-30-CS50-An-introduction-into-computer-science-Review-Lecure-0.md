@@ -1,5 +1,5 @@
 ---
-title: Day 194 - CS50 An Introduction Into Computer Science Review (Lecture 0) - Day 193
+title: CS50 An Introduction Into Computer Science Review (Lecture 0) - Day 194
 description: CS50 An Introduction Into Computer Science Review (Lecture 0).
 read: 3 min
 author: Ayo Adesanya
@@ -12,8 +12,6 @@ imageAlt: cs50 review
 ---
 
 <h2 class="snippet__title text-gradient article-special-case bold">Where I am now…</h2>
-
-<p>Thanks to <a class="blog-link" href="https://www.linkedin.com/in/famerazak/" target="_blank" rel="noopener">Fame, a senior web developer</a> from <a class="blog-link" href="https://www.ayoadesanya.com/#join-us" target="_blank" rel="noopener">the web dev telegram group (click to join) </a>, I was reminded of how helpful Google's lighthouse tool is and why I should be running reports on every website I produce.  </p>
 
 <p>As of the time of writing this blog, I've been on my coding journey for 764.35hrs across 195 days, with an average time spent coding a day of 3.9 hours. </p>
 
@@ -51,7 +49,7 @@ imageAlt: cs50 review
 
 <p>This was the course I was looking for! So I committed to the entire series of lectures to get the foundation I so desperately need. Here's a glimpse of what CS50 offers, taken straight from their website… </p>
 
-<p> <b>"An introduction to the intellectual enterprises of computer science and the art of programming"</b> <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0" target="_blank" rel="noopener"><span>Learn more here</span></a></p>
+<p> <b>"CS50: Introduction to Computer Science"</b> <a class="blog-link"href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0" target="_blank" rel="noopener"><span>Learn more here.</span></a></p>
 
 <p>So far, I've watched lecture 0 And guess what? It was fantastic! David J. Malan's (the lecturer) energy is unrelenting. He just keeps going and going for over an hour, giving you everything he's got. </p>
 
