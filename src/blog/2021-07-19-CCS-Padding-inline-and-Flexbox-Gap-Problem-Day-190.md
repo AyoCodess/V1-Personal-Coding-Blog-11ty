@@ -1,5 +1,5 @@
 ---
-title: CCS Padding-inline and Flexbox Gap Problem - Day 190
+title: CCS Padding-inline and Flexbox Gap Problem
 description: Padding-inline and Flexbox gap not working as expected.
 read: 2 min
 author: Ayo Adesanya

@@ -1,5 +1,5 @@
 ---
-title: 11ty (Eleventy) Blog Website Complete! - Day 192
+title: 11ty (Eleventy) Blog Website Complete!
 description: 11ty (Eleventy) and Nunjucks blog website
 read: 2 min
 author: Ayo Adesanya

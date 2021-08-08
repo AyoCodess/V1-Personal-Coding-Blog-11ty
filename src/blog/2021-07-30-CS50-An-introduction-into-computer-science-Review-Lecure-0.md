@@ -1,5 +1,5 @@
 ---
-title: CS50 An Introduction Into Computer Science Review (Lecture 0) - Day 194
+title: CS50 An Introduction Into Computer Science Review (Lecture 0)
 description: CS50 An Introduction Into Computer Science Review (Lecture 0).
 read: 3 min
 author: Ayo Adesanya
