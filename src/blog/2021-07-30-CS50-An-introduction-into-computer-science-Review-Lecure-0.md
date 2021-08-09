@@ -1,7 +1,7 @@
 ---
 title: CS50 An Introduction Into Computer Science Review (Lecture 0)
 description: CS50 An Introduction Into Computer Science Review (Lecture 0).
-read: 3 min
+read: 2 min
 author: Ayo Adesanya
 date: 2021-07-30
 tags:
