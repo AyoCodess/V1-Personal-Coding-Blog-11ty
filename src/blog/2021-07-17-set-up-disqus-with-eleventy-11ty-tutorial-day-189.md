@@ -12,6 +12,7 @@ image: https://i.imgur.com/8zB56E4.jpg
 imageAlt: Set up Disqus with Eleventy (11ty) tutorial
 ---
 
+<h2 class="snippet__title text-gradient article-special-case bold day">Day 189</h2><br>
 <h2 class="snippet__title text-gradient article-special-case bold">The Problem</h2>
 
 <p class="blog-p">I had one major issue getting the Disqus comment lightbox to work on my 11ty static generated blog website. So if you're using 11ty and you find yourself stuck, hopefully, you ran into the same issue, and this short blog helps.</p>

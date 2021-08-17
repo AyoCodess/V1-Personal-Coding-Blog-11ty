@@ -275,6 +275,15 @@ section,
 .image-block-2 {
   margin-bottom: 3rem;
 }
+.day {
+  display: block;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0 auto !important;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
 /* //////////////////////
   Utility Classes

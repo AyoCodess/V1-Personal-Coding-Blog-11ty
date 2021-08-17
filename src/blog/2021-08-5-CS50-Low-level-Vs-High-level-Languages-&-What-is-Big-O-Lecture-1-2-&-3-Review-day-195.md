@@ -12,6 +12,8 @@ image: https://i.imgur.com/L5V3IEp.png
 imageAlt: cs50 review
 ---
 
+<h2 class="snippet__title text-gradient article-special-case bold day">Day 195</h2><br>
+
 <h2 class="snippet__title text-gradient article-special-case bold">Lecture 1 Review</h2>
 
 <p>So what's the verdict after watching Lecture 1 of the 12 CS50 lectures on youtube?  Entertaining and extremely helpful! David's energy is on fire, and it feels like the content is just getting better and better. In this lecture, I was re-introduced to general programming fundamentals like conditions, boolean expressions, functions and loops. Understanding how these basic building blocks can be used with each other to solve complex problems.  </p>

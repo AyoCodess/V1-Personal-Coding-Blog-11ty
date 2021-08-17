@@ -11,9 +11,10 @@ image: https://i.imgur.com/umUF1ls.jpg
 imageAlt: cs50 review
 ---
 
+<h2 class="snippet__title text-gradient article-special-case bold day">Day 194</h2><br>
 <h2 class="snippet__title text-gradient article-special-case bold">Where I am now…</h2>
 
-<p>As of the time of writing this blog, I've been on my coding journey for 764.35hrs across 195 days, with an average time spent coding a day of 3.9 hours. </p>
+<p>As of the time of writing this blog, I've been on my coding journey for 764.35hrs across 194 days, with an average time spent coding a day of 3.9 hours. </p>
 
 <p>At this point, I feel like I have a very good understanding of HTML and CSS, and a decent understanding of javascript.  </p>
 
