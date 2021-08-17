@@ -30,11 +30,11 @@ imageAlt: cs50 review
 
 <h2 class="snippet__title text-gradient article-special-case bold">Lecture 2 Review</h2>
 
-<p>Lecture 2 dove deeper into understanding data structures, functions and how we can code in a way that abstracts complexity away. An Abstraction in computer science generally means a simplification of something more complicated. Abstractions are usually created to make a humans ability to program and solve problems more straightforward and intuitive. But there is typically a price to pay for this simplification, but that's a blog for another day.</p>
+<p>Lecture 2 dove deeper into understanding data structures, functions and how we can code in a way that abstracts complexity away. An Abstraction in computer science generally means a simplification of something more complicated. Abstractions are usually created to make a human's ability to program and solve problems more straightforward and intuitive. But there is typically a price to pay for this simplification, but that's a blog for another day.</p>
 
 <p>If you're familiar with the various programming languages out there, Think of it like this.</p>
 
-<p><b>1.</b> Assembly-line (a very low-level programing language) is an abstraction of machine code (1's and 0's), the lowest level language. </p>
+<p><b>1.</b> Assembly-line (a very low-level programming language) is an abstraction of machine code (1's and 0's), the lowest level language. </p>
 
 <p><b>2.</b> C, a low-level language but simpler to write and understand than assembly-line code, could be seen as an abstraction of Assembly-line but is still regarded as a low-level language. </p>
 
@@ -58,7 +58,7 @@ imageAlt: cs50 review
 
 <p>Building powerful applications that manage and process huge data sets are pretty challenging to do without a good understanding of knowing when and how to implement the right algorithms and data structures. As a web developer, I can't neglect this part of programming if I genuinely want to write efficient and scalable code. </p>
 
-<p>David talked about 'Big-O notion', and its importance in describing the worst-case length of time an algorithm will take to finish a task (aka time complexity), along with explaining omega and theta notations. Omega deals with the best case, and theta is used if the best and worst cases are the same in terms of time complexity.  </p>
+<p>David talked about 'Big-O notation', and its importance in describing the worst-case length of time an algorithm will take to finish a task (aka time complexity), along with explaining omega and theta notations. Omega deals with the best case, and theta is used if the best and worst cases are the same in terms of time complexity.  </p>
 
 <p>There is much more to Big O, like considering space complexity, but that's the basics. If you would like to learn more about Big 0 notation, <a href="https://www.educative.io/edpresso/what-is-big-o-notation" class="blog-link">click here</a>. It's an important and fun topic that will make you a better problem solver for sure. It's already changed how I think about problem-solving completely after learning more about the subject. </p>
 
