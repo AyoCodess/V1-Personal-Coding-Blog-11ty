@@ -18,7 +18,7 @@ imageAlt: cs50 review
 
 <p>To start things off, we got a fun introduction to the visual programming language called Scratch. He coded up some programs to illustrate what we could do with a couple of basic ideas, stacking them on top of each other. For example, making an object move across a screen in a loop, turning 180 degrees once it made it to either side of the screen. To a fully functioning game where a character, controlled by the user, was programmed to move through an obstacle course while avoiding moving objects.  </p>
 
-<p>Soon after that, we got into the IDE's, Integrated developer environments (software developers use to code programs), the command line and how we use it to talk to our computer without using a mouse via the computers terminal. And finally, 8bit to 64bit computer memory and its use-cases and implications. I was l already familiar with some of these concepts, so this lecture was an awesome refresher, further embedding these essential concepts into my subconscious. </p>
+<p>Soon after that, we got into the IDE's, Integrated developer environments (software developers use to code programs), the command line and how we use it to talk to our computer without using a mouse via the computers terminal. And finally, 8bit to 64bit computer memory and its use-cases and implications. I was l already familiar with some of these concepts, so this lecture was an awesome refresher, further embedding this knowledge into my subconscious. </p>
 
 <div class="image-block-2">
 
@@ -32,15 +32,15 @@ imageAlt: cs50 review
 
 <p>If you're familiar with the various programming languages out there, Think of it like this.</p>
 
-<p><b>1.</b> Assembly-line (a very low-level programing language) is an abstraction of machine code ( 1's and 0's), the lowest level language. </p>
+<p><b>1.</b> Assembly-line (a very low-level programing language) is an abstraction of machine code (1's and 0's), the lowest level language. </p>
 
-<p><b>2.</b> C, a low-level language but simpler to write and understand, could be seen as an abstraction of Assembly-line but still regarded as a low-level language. </p>
+<p><b>2.</b> C, a low-level language but simpler to write and understand, could be seen as an abstraction of Assembly-line but is still regarded as a low-level language. </p>
 
 <p><b>3.</b> Javascript, PHP, Ruby, Python, C++ (High-level languages) could be seen as abstractions of C. </p>
 
-<p>Although this is not strictly the truth, a low-level language like C is still used in industry today due to its faster compile time ( the time it takes to translate the C code into machine code). Remember the price we usually have to pay for abstractions? That was a hint. We typically pay in speed and efficiency, but in recent times this isn't seen as an issue anymore unless you are building rocket ships and every nanosecond matters.  </p>
+<p>A low-level language like C is still used in industry today due to its faster compile time (the time it takes to translate the C code into machine code, machine code being the lowest level language). Remember the price we usually have to pay for abstractions? That was a hint. We typically pay in speed and efficiency, but in recent times this isn't seen as an issue anymore unless you are building rocket ships and every nanosecond matters.  </p>
 
-<p>Higher-level languages generally across the board have simplified older languages making the coding experience generally more accessible. Some developers would even argue much more enjoyable too. </p>
+<p>Higher-level languages, generally across the board have simplified older languages making the coding experience generally more accessible. Some developers would even argue much more enjoyable too. </p>
 
 <p>In all, the lecture was super insightful and enjoyable. </p>
 
@@ -56,9 +56,9 @@ imageAlt: cs50 review
 
 <p>Building powerful applications that manage and process huge data sets are pretty challenging to do without a good understanding of knowing when and how to implement the right algorithms and data structures. As a web developer, I can't neglect this part of programming if I genuinely want to write efficient and scalable code. </p>
 
-<p>David talked about 'the big-O nation', and its importance in describing the worst-case length of time an algorithm will take to finish (aka time complexity), along with explaining omega and theta notations. Omega deals with the best case, and theta is used if the best and worst cases are the same in terms of time complexity.  </p>
+<p>David talked about 'the big-O nation', and its importance in describing the worst-case length of time an algorithm will take to finish a task (aka time complexity), along with explaining omega and theta notations. Omega deals with the best case, and theta is used if the best and worst cases are the same in terms of time complexity.  </p>
 
-<p>There is much more to Big O, like considering space complexity, but that's the basics. If you would like to learn more about Big 0 notation, click here. It's an important and fun topic that will make you a better problem solver for sure. It's already changed how I think about problem-solving completely. I can't go back to the way I used to think. </p>
+<p>There is much more to Big O, like considering space complexity, but that's the basics. If you would like to learn more about Big 0 notation, <a href="https://www.educative.io/edpresso/what-is-big-o-notation" class="blog-link">click here</a>. It's an important and fun topic that will make you a better problem solver for sure. It's already changed how I think about problem-solving completely as I find it incredibly difficult to go back to the way I used to think, not that I would want too anyway. </p>
 
 <p>Overall It was a cool introduction, and I can't wait to start implementing these algorithms for myself in a few weeks!</p>
 
