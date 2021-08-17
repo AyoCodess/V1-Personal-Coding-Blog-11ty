@@ -36,9 +36,9 @@ imageAlt: cs50 review
 
 <p><b>1.</b> Assembly-line (a very low-level programming language) is an abstraction of machine code (1's and 0's), the lowest level language. </p>
 
-<p><b>2.</b> C, a low-level language but simpler to write and understand than assembly-line code, could be seen as an abstraction of Assembly-line but is still regarded as a low-level language. </p>
+<p><b>2.</b> C, a low-level language but simpler to write and understand than assembly-line code, could be seen as an abstraction of Assembly-line, but is still regarded as a low-level language. </p>
 
-<p><b>3.</b> Javascript, PHP, Ruby, Python, C++ (High-level languages) could be seen as abstractions of C. </p>
+<p><b>3.</b> Javascript, PHP, Ruby, Python, C++ (high-level languages) could be seen as abstractions of C. </p>
 
 <p>However a low-level language like C is still used in some areas of industry today due to its faster compile time (the time it takes to translate the C code into machine code, machine code being the lowest level language). Remember the price we usually have to pay for abstractions? We typically pay in speed and efficiency, but in recent times this isn't seen as an issue anymore unless you are building rocket ships and every nanosecond matters.  </p>
 
