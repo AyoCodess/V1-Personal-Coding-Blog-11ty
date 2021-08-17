@@ -64,4 +64,4 @@ imageAlt: cs50 review
 
 <p>Overall, this lecture was a cool introduction into algorithms and I can't wait to start implementing some into my own code in a few weeks!</p>
 
-<p><b>Until the next time, make sure you get your 7 or 8 hours of sleep ;)</b></p>
+<p><b>Until next time, make sure you get your 7 or 8 hours of sleep ;)</b></p>
