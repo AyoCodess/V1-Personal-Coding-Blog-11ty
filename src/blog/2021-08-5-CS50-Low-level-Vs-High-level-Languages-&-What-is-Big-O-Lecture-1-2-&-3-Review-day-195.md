@@ -16,11 +16,11 @@ imageAlt: cs50 review
 
 <h2 class="snippet__title text-gradient article-special-case bold">Lecture 1 Review</h2>
 
-<p>So what's the verdict after watching Lecture 1 of the 12 CS50 lectures on youtube?  Entertaining and extremely helpful! David's energy is on fire, and it feels like the content is just getting better and better. In this lecture, I was re-introduced to general programming fundamentals like conditions, boolean expressions, functions and loops. Understanding how these basic building blocks can be used with each other to solve complex problems.  </p>
+<p>So what's the verdict after watching Lecture 1 of the 12 CS50 lectures on YouTube?  Entertaining and extremely helpful! David's energy is on fire, and it feels like the content is just getting better and better. In this lecture, I was re-introduced to general programming fundamentals like conditions, boolean expressions, functions and loops. Understanding how these basic building blocks can be used with each other to solve complex problems.  </p>
 
 <p>To start things off, we got a fun introduction to the visual programming language called Scratch. He coded up some programs to illustrate what we could do with a couple of basic ideas and stacking them on top of each other. For example, making an object move across a screen in a loop, turning 180 degrees once it made it to either side of the screen. To a fully functioning game where a character, controlled by the user, was programmed to move through an obstacle course while avoiding moving objects.  </p>
 
-<p>Soon after that, we got into the IDE's, Integrated developer environments (software, developers use to code programs), the command line and how we use it to talk to a computer without using a mouse via the computers terminal. And finally, 8bit to 64bit computer memory and its use-cases. I was l already familiar with some of these concepts, so this lecture was an awesome refresher, further embedding this knowledge into my subconscious. </p>
+<p>Soon after that, we got into the IDE's, Integrated developer environments (software, developers use to code programs), the command line and how it's to talk to the computer without a mouse via the computers terminal. And finally, 8bit to 64bit computer memory and its use-cases. I was already familiar with some of these topics, so this lecture was an awesome refresher. </p>
 
 <div class="image-block-2">
 
