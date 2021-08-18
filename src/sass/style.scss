@@ -518,6 +518,8 @@ nav {
   }
 }
 
+//? footer
+
 footer {
   margin-top: auto !important;
 }
@@ -525,8 +527,10 @@ footer {
   display: flex;
   flex-direction: column;
 
+  overflow-x: hidden;
+
   align-items: flex-start;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 
   ul {
     align-items: flex-start;
@@ -543,7 +547,7 @@ footer {
       margin-top: 1rem;
     }
     input {
-      border-radius: 2rem;
+      border-radius: 1rem;
       margin-left: 1rem;
       height: 2.5rem;
       font-size: 1rem;
@@ -551,6 +555,8 @@ footer {
 
     button {
       margin-left: 0.5rem;
+      border-radius: 1rem;
+      margin-top: 0.05rem;
     }
   }
 }
