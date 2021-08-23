@@ -1,5 +1,5 @@
 ---
-title: CS50 Lecture 4 & 5 Review and Why we use hexadecimal!
+title: CS50 Lecture 4 & 5 Review, Why we use hexadecimal & Linked-lists!
 description: A review and summary of CS50 Lecture 4 and 5
 read: 2 min
 author: Ayo Adesanya
