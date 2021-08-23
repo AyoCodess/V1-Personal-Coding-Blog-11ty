@@ -51,13 +51,13 @@ imageAlt: cs50 review
 <p><b>3.</b>You don't need random access to any elements.</p>
 <p><b>4.</b>You want to insert items in the middle of the linked-list without affecting all the other elements in the array.</p>
 
-<p>We also briefly looked at other data structures like a stack, queue, binary search tree and different implementations of a hash table. Next, we looked at a custom data structure that combed arrays and linked-lists to create a time-efficient searchable data structure irrespective of its size. And finally, we looked at the Trie data structure, which moves us closer to the holy grail of data structures with an across the board time complexity of bigO(1). </p>
-
 <div class="image-block-2">
 
 <img class="blog-img--2 picture" src="https://i.imgur.com/urjwz5W.png" alt="linked-list ayo adesanya" title="linked-list ayo adesanya" />
 
 </div>
+
+<p>We also briefly looked at other data structures like a stack, queue, binary search tree and different implementations of a hash table. Next, we looked at a custom data structure that combed arrays and linked-lists to create a time-efficient searchable data structure irrespective of its size. And finally, we looked at the Trie data structure, which moves us closer to the holy grail of data structures with an across the board time complexity of bigO(1). </p>
 
 <p>In other words, searching, inserting and deleting anything within the data structure takes the same amount of time regardless of the data structure size. But remember, in programming, there are always trade-offs. In the case of a Trie data structure, we have to pay a considerable price in computer memory.</p>
 
