@@ -7,6 +7,7 @@ date: 2021-08-16
 tags:
   - post
   - cs50 review
+  - data structures
 image: https://i.imgur.com/avikUbH.jpg
 imageAlt: cs50 review
 ---
