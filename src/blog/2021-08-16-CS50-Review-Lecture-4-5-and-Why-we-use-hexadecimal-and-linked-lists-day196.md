@@ -32,7 +32,7 @@ imageAlt: cs50 review
 
 </div>
 
-<p>Next, we delved deeper into the world of computer memory. David went into low-level explanations of how computer memory (RAM) really works, increasing my knowledge and understanding of how programming languages access and use computer memory.  Next, we delved deeper into the world of computer memory. David went into low-level explanations of how computer memory (RAM) really works, increasing my knowledge and understanding of how programming languages access and use computer memory.  /p>
+<p>Next, we delved deeper into the world of computer memory. David went into low-level explanations of how computer memory (RAM) really works, increasing my knowledge and understanding of how programming languages access and use computer memory.  Next, we delved deeper into the world of computer memory. David went into low-level explanations of how computer memory (RAM) really works, increasing my knowledge and understanding of how programming languages access and use computer memory.  </p>
 
 <p>For example, suppose you're using a data structure like an array in a lower-level language like C; in that case, you literally have to know and declare in advance how much space in computer memory that array would take up before you could even attempt to run that program. Sounds tricky?  It is! </p>
 
