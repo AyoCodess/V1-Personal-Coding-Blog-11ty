@@ -21,11 +21,26 @@ layout: "base.njk"
         You'll find some of my favorite posts below. Or go ahead and click
         "recent" to see my most recent posts.
       </p>
+      <a
+        href="https://docs.google.com/spreadsheets/d/1vAZXm3rE-hDKNywl3A-YNhdKJL4E1hdIUToIXUD267k/edit?usp=sharing"
+        class="btn btn--neutral"
+        target="_blank"
+        rel="noopener"
+        >My Study Report <span><i class="fas fa-arrow-right"></i></span
+      ></a>
       <div class="hero-buttons">
-        <a href="#featured-articles" class="btn btn--primary"
+        <a
+          href="#featured-articles"
+          class="btn btn--primary"
+          target="_blank"
+          rel="noopener"
           >Featured articles <span><i class="fas fa-arrow-right"></i></span
         ></a>
-        <a href="./blogs" class="btn btn--neutral"
+        <a
+          href="./blogs"
+          class="btn btn--neutral"
+          target="_blank"
+          rel="noopener"
           >Most recent articles <span><i class="fas fa-arrow-right"></i></span
         ></a>
       </div>
@@ -40,8 +55,8 @@ layout: "base.njk"
   <div class="container flow">
     <h2 class="section-title text-center text-gradient">Featured articles</h2>
     <p class="text-center fa-text">
-      Here's are some articles that'll give you a good idea of what this site
-      is all about.
+      Here's are some articles that'll give you a good idea of what this site is
+      all about.
     </p>
     <ul role="list" class="articles__list flow">
       {%- for post in collections.featured.slice(0).slice(0) | reverse -%} {%
