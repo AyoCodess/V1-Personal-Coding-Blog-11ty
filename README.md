@@ -10,4 +10,4 @@ This was my first time using a static site generator with a headless CMS. We hav
 
 ## Live Site
 
-http://blog.ayoadesanya.com
+http://blogv1.ayoadesanya.com
